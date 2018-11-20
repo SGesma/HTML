@@ -1,0 +1,48 @@
+
+ul li ul
+{
+    display: none;
+}
+
+ul
+{
+   display: flex;
+}
+
+li
+{
+    list-style: none;
+    height: 75px;
+    background-color: rgb(19, 82, 107);
+    width: 220px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+a
+{
+    display: block;
+    width: 220px;
+    height: 75px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+}
+
+li a:hover
+{
+    color: rgb(5, 7, 75);
+}
+
+ul li:hover ul 
+{
+    display:flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+li:hover 
+{
+    border-bottom: 1px solid purple;
+}
+   

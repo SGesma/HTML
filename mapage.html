@@ -1,0 +1,97 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Première page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <article>
+            <h3>Apprendre HTML</h3>
+            <p>Ceci est mon premier texte pour ma page web</p><br>
+            <a href="http://www.google.com">
+                <img src="montagne.jpg" alt="montagne" height="250px"><br>
+            </a>
+            <a href="http://www.google.com">cliquez-ici</a>
+        </article>
+        <article>
+            <h2>Mise en pratique HTML</h2>
+            <p>Création de contenu et image pour apprendre</p>
+            <a href="http//www.montagne.com">
+                <img src="rando.jpg" alt="rando" height="250px">
+            </a>
+        </article>
+    </main><br>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <div class="Première">
+                <label for="name">Nom d'utilisateur:</label>
+                <input type="text" id="name" placeholder="nom" autofocus required>
+                <br>
+            
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="votre email" required>
+                <br>
+            
+                <label for="password">Mot de passe:</label>
+                <input type="password" name="password" id="password" required>
+                <br>
+            </div>
+
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="18" required><br>
+            </div>
+
+            <fieldset>
+                <legend><strong>Votre civilité:</strong></legend>
+                <div>
+                    <label for="male">homme</label>
+                    <input type="checkbox" id="male" name="gender" value="male" />
+                
+                    <label for="female">femme</label>
+                    <input type="checkbox" id="female" name="gender" value="female" />
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="hobbies"></label>
+                <input type="checkbox" id="photo" name="hobbies" />Photo
+                <input type="checkbox" id="escalade" name="hobbies" />Escalade
+                <input type="checkbox" id="sport" name="hobbies" />Sport
+            </div>
+
+            <div>
+                <label for="presentation">Message:</label>
+                <textarea id="message" name="message" rows="3" cols="100"></textarea>
+            </div>
+
+            <label for="birthplace">Lieu de naissance:</label>
+            <select name="birthplace" id="birthplace">
+                <optgroup label="Pays de la loire">
+                    <option value="44">Loire Atlantique</option>
+                    <option value="85">Vendée</option>
+                </optgroup>
+            </select><br>
+
+            <input class="button" type="submit" type="envoyer">
+            
+        </fieldset>
+    </form>
+
+    <video controls src="video.mp4" alt="video" autoplay loop height="250px"></video>
+
+    <footer>
+        <p>3 rue Piron, 44100 NANTES</p>
+    </footer>
+</body>
+
+</html>

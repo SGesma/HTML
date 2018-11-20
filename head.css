@@ -1,0 +1,48 @@
+
+
+
+#head
+{      
+    width:450px;
+    height:600px;
+    border-radius:50%;
+    background:pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#head:hover
+{
+    background:aqua;
+}
+
+.eyes
+{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background:white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupils
+{
+    width:50px;
+    height:50px;
+    border-radius:60%;
+    background:black; 
+}
+
+.mouth
+{
+    width: 330px;
+    height: 80px;
+    background: black;
+    border-radius: 100px / 50px;
+    align-items: center;
+    margin-bottom: 2px;
+}

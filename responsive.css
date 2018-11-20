@@ -1,0 +1,78 @@
+body
+{
+    margin: 0px;
+}
+
+.carré-1
+{
+    background-color: aquamarine;
+}
+
+.carré-2
+{
+    background-color: plum;
+}
+
+.carré-3
+{
+    background-color: grey;
+}
+
+.carré-4
+{
+    background-color: peachpuff;
+}
+
+.carré-5
+{
+    background-color: purple;
+}
+
+.carré-6
+{
+    background-color: blueviolet;
+}
+
+.carré-1, .carré-2, .carré-3, .carré-4, .carré-5, .carré-6
+{
+    height: 100px;
+}
+
+
+@media screen and (max-width: 640px)
+{
+    .carré-2, .carré-3, .carré-5, .carré-6
+    {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width: 1280px)
+{
+    #contener
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carré-1, .carré-3
+    {
+        width: 100%;
+    }
+
+    .carré-2, .carré-4, .carré-5, .carré-6
+    {
+        width: 50%;
+    }
+
+    .carré-5
+    {
+        order: -1;
+    }
+
+    .carré-1
+    {
+        order: -2;
+    }
+}
